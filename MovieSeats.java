@@ -16,13 +16,6 @@ public class MovieSeats {
 
         seats = seats(rows, cols);
 
-        // seats = new char[ROWS][COLS];
-        // for (int row=0; row<ROWS; row++){
-        //     for(int col=0; col<COLS; col++){
-        //         seats[row][col]= 'O';
-        //     }
-        // }
-
         boolean running = true;
         while (running){
             System.out.println("\n--- Movie Theater Seat Reservation ---");
